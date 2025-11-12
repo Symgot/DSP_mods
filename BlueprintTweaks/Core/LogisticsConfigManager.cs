@@ -122,7 +122,7 @@ namespace BlueprintTweaks.Core
             int maxQuantity = slot.GetMaxQuantityForStationType();
 
             // Clamp quantity to valid range
-            quantity = Math.Clamp(quantity, 1, maxQuantity);
+            quantity = Math.Max(1, Math.Min(maxQuantity, quantity));
             slot.Quantity = quantity;
 
             OnSlotChanged?.Invoke(slotIndex, slot);
@@ -180,7 +180,7 @@ namespace BlueprintTweaks.Core
             if (slot.StationType != StationType.ILS)
                 return false;
 
-            slot.MinLoadPercentage = Math.Clamp(percentage, 0, 100);
+            slot.MinLoadPercentage = Math.Max(0, Math.Min(100, percentage));
             OnSlotChanged?.Invoke(slotIndex, slot);
             return true;
         }

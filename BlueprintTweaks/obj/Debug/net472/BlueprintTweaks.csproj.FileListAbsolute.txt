@@ -1,0 +1,7 @@
+/home/runner/work/DSP_mods/DSP_mods/BlueprintTweaks/obj/Debug/net472/BlueprintTweaks.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/DSP_mods/DSP_mods/BlueprintTweaks/obj/Debug/net472/BlueprintTweaks.csproj.CoreCompileInputs.cache
+/home/runner/work/DSP_mods/DSP_mods/BlueprintTweaks/obj/Debug/net472/BlueprintTweaks.sourcelink.json
+/home/runner/work/DSP_mods/DSP_mods/BlueprintTweaks/bin/Debug/net472/BlueprintTweaks.dll
+/home/runner/work/DSP_mods/DSP_mods/BlueprintTweaks/bin/Debug/net472/BlueprintTweaks.pdb
+/home/runner/work/DSP_mods/DSP_mods/BlueprintTweaks/obj/Debug/net472/BlueprintTweaks.dll
+/home/runner/work/DSP_mods/DSP_mods/BlueprintTweaks/obj/Debug/net472/BlueprintTweaks.pdb

@@ -98,7 +98,7 @@ namespace BlueprintTweaks.Models
             if (MinLoadPercentage < 0 || MinLoadPercentage > 100)
             {
                 errorMessage = "MinLoadPercentage must be between 0 and 100";
-                MinLoadPercentage = Math.Clamp(MinLoadPercentage, 0, 100);
+                MinLoadPercentage = Math.Max(0, Math.Min(100, MinLoadPercentage));
                 return false;
             }
 
