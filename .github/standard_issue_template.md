@@ -72,16 +72,17 @@ assignees: []
 #### Anweisungen für GitHub Coding Agent
 
 **CRITICAL:** Der GitHub Coding Agent MUSS die `copilot-instructions.md` befolgen und:
+1. **Instruktionen beachten**: Der Coding Agent muss die copilot-instructions.md beachten und zur gesamten Laufzeit befolgen. Diese befindet sich: ".github/copilot-instructions.md". 
+2. **ALLE Aufgaben vollständig integrieren**: Alle genannten Aufgaben vollständig integrieren
+3. **Eigenständigen Abgleich durchführen**: Automatische Validierung gegen offizielle API
+4. **Universelle Einsetzbarkeit sicherstellen**: Mock-System muss für jegliche Mod verwendbar sein
+5. **Branch verwenden**: Alle Änderungen im korrekten Branch durchführen
+6. **Workflow-Hinweise**: Die "Workflow-Hinweis für den Coding Agent" vollständig beachten.
 
-1. **ALLE Aufgaben vollständig integrieren**: Alle genannten Aufgaben vollständig integrieren
-2. **Eigenständigen Abgleich durchführen**: Automatische Validierung gegen offizielle API
-3. **Universelle Einsetzbarkeit sicherstellen**: Mock-System muss für jegliche Mod verwendbar sein
-4. **Branch verwenden**: Alle Änderungen im korrekten Branch durchführen
-
-### Workflow-Hinweis
+### Workflow-Hinweis für den Coding Agent
 
 - Nach der Issue-Erstellung wird ein Basis-PR erstellt.
-- Alle Dokumentation und Diskussion erfolgt im PR, nicht im Issue.
+- Alle Dokumentation und Diskussion erfolgt im PR, nicht im Issue. KEINE ERSTELLUNG VON DOKUMENTATIONEN, ALLE DOKUMENTATIONEN FINDEN AUSSCHLIEßLICH IM PR STATT
 - Das Issue dient nur als Ausgangspunkt für die strukturierte Bearbeitung.
 
 ### Hinweis
