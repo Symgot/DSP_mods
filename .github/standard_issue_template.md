@@ -143,5 +143,6 @@ Falls eine referenzierte Quelle in einem privaten Repo liegt: wer braucht Zugrif
 3. **Commit-Quellen**: Jeder Commit enthält Source-URL für Verifikation
 4. **Datei-Referenzen**: Alle geänderten Dateien haben Commit-Referenzen
 5. **Minimale Issue-Kommentierung**: Nach PR-Erstellung nur minimal kommentieren: "Lösung in PR #<nr> - Alle Details und Dokumentation dort."
+6. **Instruktionen**: Die copilot-instructions.md müssen zu jedem Zeitpunkt beachtet werden. Diese finden sich unter ".github/copilot-instructions.md"
 
 ---
